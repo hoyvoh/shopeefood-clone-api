@@ -110,3 +110,36 @@ export const DELIVERY_INFO_MESSAGES = {
   GET_ALL_DELIVERY_INFO_SUCCESS: 'Get all delivery info successfully',
   DELETE_DELIVERY_INFO_SUCCESS: 'Delete delivery info successfully'
 } as const
+
+export const RESTAURANT_MESSAGES = {
+  CREATE_RESTAURANT_SUCCESS: 'Create restaurant successfully',
+  UPDATE_RESTAURANT_SUCCESS: 'Update restaurant successfully',
+  GET_ALL_RESTAURANT_SUCCESS: 'Get all restaurant successfully',
+  DELETE_RESTAURANT_SUCCESS: 'Delete restaurant successfully',
+  INVALID_RESTAURANT_ID: 'Invalid restaurant ID',
+  RESTAURANT_NOT_FOUND: 'Restaurant not found',
+  NAME_IS_REQUIRED: 'Name is required',
+  NAME_MUST_BE_A_STRING: 'Name must be a string',
+  PHONE_IS_REQUIRED: 'Phone is required',
+  PHONE_MUST_BE_A_STRING: 'Phone must be a string',
+  ADDRESS_IS_REQUIRED: 'Address is required',
+  ADDRESS_MUST_BE_A_STRING: 'Address must be a string',
+  EMAIL_IS_REQUIRED: 'Email is required',
+  EMAIL_MUST_BE_A_STRING: 'Email must be a string',
+  RATING_MUST_BE_A_FLOAT: 'Rating must be a float (or double)',
+  IMAGE_MUST_BE_A_STRING: 'Image must be a string',
+  ISACTIVE_MUST_BE_A_BOOLEAN: 'isActive must be a boolean'
+} as const
+
+export const MENUS_MESSAGES = {
+  CREATE_MENU_SUCCESS: 'Create menu successfully',
+  UPDATE_MENU_SUCCESS: 'Update menu successfully',
+  GET_ALL_MENU_SUCCESS: 'Get all menu successfully',
+  DELETE_MENU_SUCCESS: 'Delete menu successfully',
+  MENU_NOT_FOUND: 'Menu not found',
+  INVALID_MENU_ID: 'Invalid menu id',
+  RESTAURANT_ID_IS_REQUIRED: 'Restaurant id is required',
+  INVALID_RESTAURANT_ID: 'Invalid restaurant id',
+  TITLE_IS_REQUIRED: 'Title is required',
+  TITLE_MUST_BE_A_STRING: 'Title must be a string'
+} as const
