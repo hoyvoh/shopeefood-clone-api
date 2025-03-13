@@ -8,6 +8,8 @@ import searchRouter from './search.routes'
 import conversationsRouter from './conversations.routes'
 import staticRouter from './static.routes'
 import deliveryInfoRouter from './deliveryInfo.routes'
+import restaurantRouter from './restaurants.routes'
+import menuRouter from './menus.routes'
 const router = Router()
 
 const initApiRoute = (app: Application) => {
@@ -29,6 +31,10 @@ const initApiRoute = (app: Application) => {
   router.use('/static', staticRouter)
   //delivery info
   router.use('/delivery-info', deliveryInfoRouter)
+  //restaurant
+  router.use('/restaurants', restaurantRouter)
+  //menus
+  router.use('/menus', menuRouter)
   //api/v1 router
   return app.use('/api/v1', router)
 }
